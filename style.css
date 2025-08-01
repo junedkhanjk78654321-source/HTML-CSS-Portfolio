@@ -138,13 +138,12 @@ html {
     margin: 0 auto;
     text-align: center;
     width: 500px;
-
+    color: aliceblue;
 }
 
 .form {
     margin: 0 auto;
     width: max-content;
-
 }
 
 .class {
@@ -155,14 +154,17 @@ html {
 
 .nameBox {
     margin: 10px 30px;
+    color: aliceblue;
 }
 
 .mailBox {
     margin: 10px 30px;
+    color: aliceblue
 }
 
 .dropbox {
     margin: 0px 30px;
+    color: aliceblue
 }
 
 .dropbox input,
@@ -182,8 +184,24 @@ textarea {
     padding: 10px;
 }
 
-.footer{
+.form button {
+    background-color: aliceblue;
+    color: darkviolet;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px 0px;
+    margin: 5px;
+    width: 90%;
+
+}
+
+.footer {
     padding: 20px 0px;
+}
+
+.submitButton {
+    width: 100%;
+    text-align: center;
 }
 
 @media (max-width: 1200px) {
@@ -235,7 +253,8 @@ textarea {
     .form input {
         width: 100%;
     }
-    .template{
+
+    .template {
         margin: 10px auto;
     }
 
